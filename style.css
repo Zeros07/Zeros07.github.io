@@ -1,0 +1,121 @@
+/* RESET DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Ganti dengan font yang kamu suka */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* UTILITAS */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.primary {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+}
+
+.secondary {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.primary:hover {
+    background-color: #0056b3;
+}
+
+.secondary:hover {
+    background-color: #e9ecef;
+}
+
+
+/* 1. HEADER / HERO SECTION */
+.hero {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    border-bottom: 5px solid #007bff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.hero .tagline {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+/* 2. PROJECTS SECTION */
+.projects {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.project-card .tech-stack {
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+.project-links {
+    margin-top: 20px;
+}
+
+
+/* 3. FOOTER */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
